@@ -1,0 +1,37 @@
+<!-- example on @keyframes -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>
+			@keyframes imagechange
+			{
+				20%{ background-image:url(images/rangerover.webp); }
+				40%{ background-image:url(images/pulsar.jfif); }
+				60%{ background-image:url(images/tiger.jpg); }
+				80%{ background-image:url(images/lamborghini.jpg); }
+			}
+			div{
+			  width:70%;
+			    height:400px;
+				margin:auto;
+			  
+				
+				background-image:url(images/animal.jfif);
+				background-size:100% 100%;
+				
+				animation:imagechange 20s linear infinite; /* observe breakpoints(blinking) */
+				
+			}
+		</style>
+	</head>
+	<body bgcolor="">
+		<h2>image changing animation</h2>
+		<div>
+			<b>Hai This is not an IMAGE.This is an slideshow.SO DON'T THINK THIS IS AN IMAGE TAG....</b>
+			<h3>GNU General Public License</h3>
+			<p>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or at your option any later version.</p>
+			<h3>Notepad++</h3>
+			<p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.You should have received a copy of the GNU General Public License along with this program.</p>
+		</div>
+	</body>
+</html>
